@@ -38,8 +38,8 @@ SecondsCounter.prototype={
   dos:PropTypes.number,
   uno:PropTypes.number,
   clickH: PropTypes.onClick,
-
 }
+
 let count=0
 
 setInterval(function() {
@@ -52,10 +52,14 @@ setInterval(function() {
 
 
   
-ReactDOM.createRoot(document.querySelector("#root")).render(<SecondsCounter 
+ReactDOM.createRoot(document.querySelector("#root")).render(
+<>
+<SecondsCounter 
   uno={diguno}
    dos={digdos} 
    tres={digtres} 
    cuatro={digcuatro}
     clickH={clickHandler}
-     count={count}/>)},1000)
+     count={count}/>
+     </>
+     )},1000)
