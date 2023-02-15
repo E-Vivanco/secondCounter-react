@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-color: aquamarine;
+}
+.contador_reloj{
+  font-size: 40px;
+  line-height: 40px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 330px;
+  margin-right: 15px;
+ 
+}
+.container{
+  border-radius: 20%;
+}
+.calendario{
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  
+}
+.diguno{
+  font-size: 50px;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+.digdos{
+  font-size: 50px;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+.digtres{
+  font-size: 50px;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+.digcuatro{
+  font-size: 50px;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
